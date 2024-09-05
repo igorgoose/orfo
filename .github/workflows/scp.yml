@@ -15,5 +15,5 @@ jobs:
         key: ${{ secrets.SSH_KEY }}
         passphrase: ${{ secrets.SSH_PASSPHRASE }}
         port: ${{ secrets.PORT }}
-        source: "scr/*"
+        source: "src/*"
         target: /home/gh-actions/speller/web-data/
